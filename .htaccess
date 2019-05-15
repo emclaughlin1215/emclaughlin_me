@@ -40,7 +40,7 @@ AddEncoding gzip svgz
 </IfModule>
 
 # Requires mod_expires to be enabled.
-<IfModule mod_expires.c>z
+<IfModule mod_expires.c>
   # Enable expirations.
   ExpiresActive On
 
